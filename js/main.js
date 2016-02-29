@@ -11,7 +11,7 @@ $(function(){
          e.preventDefault(); 
     });
 
-    $.get({url:'/js/draw.js', dataType:"text"}).done(initGlimpse);
+    $.get({url:'js/draw.js', dataType:"text"}).done(initGlimpse);
     initToolbar();
 
     function initGlimpse(data) {
